@@ -294,4 +294,26 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3150 4850 50  0001 C CNN
 	5    3100 4650
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 61369EFD
+P 3000 4950
+F 0 "#PWR0101" H 3000 4700 50  0001 C CNN
+F 1 "GND" H 3005 4777 50  0000 C CNN
+F 2 "" H 3000 4950 50  0001 C CNN
+F 3 "" H 3000 4950 50  0001 C CNN
+	1    3000 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+10V #PWR0102
+U 1 1 6136A679
+P 3000 4350
+F 0 "#PWR0102" H 3000 4200 50  0001 C CNN
+F 1 "+10V" H 3015 4523 50  0000 C CNN
+F 2 "" H 3000 4350 50  0001 C CNN
+F 3 "" H 3000 4350 50  0001 C CNN
+	1    3000 4350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
