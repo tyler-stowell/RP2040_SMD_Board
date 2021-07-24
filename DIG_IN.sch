@@ -24,10 +24,10 @@ Wire Wire Line
 Text GLabel 4250 3550 3    50   Input ~ 0
 GND
 $Comp
-L Device:R_US R44
+L Device:R_US R47
 U 1 1 60B348C0
 P 4750 3300
-F 0 "R44" V 4545 3300 50  0000 C CNN
+F 0 "R47" V 4545 3300 50  0000 C CNN
 F 1 "20k" V 4636 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 4790 3290 50  0001 C CNN
 F 3 "~" H 4750 3300 50  0001 C CNN
@@ -76,10 +76,10 @@ Wire Wire Line
 Text GLabel 4250 4850 3    50   Input ~ 0
 GND
 $Comp
-L Device:R_US R45
+L Device:R_US R48
 U 1 1 60B9B8D8
 P 4750 4600
-F 0 "R45" V 4545 4600 50  0000 C CNN
+F 0 "R48" V 4545 4600 50  0000 C CNN
 F 1 "20k" V 4636 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 4790 4590 50  0001 C CNN
 F 3 "~" H 4750 4600 50  0001 C CNN
@@ -118,10 +118,10 @@ Wire Notes Line
 Text Notes 4600 4150 0    50   ~ 0
 Pull Up Resistor
 $Comp
-L Device:D D2
+L Device:D D4
 U 1 1 60B9B8F3
 P 3100 4700
-F 0 "D2" V 3054 4780 50  0000 L CNN
+F 0 "D4" V 3054 4780 50  0000 L CNN
 F 1 "D" V 3145 4780 50  0000 L CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 3100 4700 50  0001 C CNN
 F 3 "~" H 3100 4700 50  0001 C CNN
@@ -129,10 +129,10 @@ F 3 "~" H 3100 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R43
+L Device:R_US R46
 U 1 1 60CA13C5
 P 2850 5150
-F 0 "R43" V 3055 5150 50  0000 C CNN
+F 0 "R46" V 3055 5150 50  0000 C CNN
 F 1 "2.2k" V 2964 5150 50  0000 C CNN
 F 2 "Resistor_SMD:R_1210_3225Metric" V 2890 5140 50  0001 C CNN
 F 3 "~" H 2850 5150 50  0001 C CNN
@@ -153,10 +153,10 @@ Wire Wire Line
 Wire Wire Line
 	3100 4550 3100 4250
 $Comp
-L Device:D D1
+L Device:D D3
 U 1 1 60CF166B
 P 3100 3400
-F 0 "D1" V 3054 3480 50  0000 L CNN
+F 0 "D3" V 3054 3480 50  0000 L CNN
 F 1 "D" V 3145 3480 50  0000 L CNN
 F 2 "Diode_SMD:D_0805_2012Metric" H 3100 3400 50  0001 C CNN
 F 3 "~" H 3100 3400 50  0001 C CNN
@@ -164,10 +164,10 @@ F 3 "~" H 3100 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R42
+L Device:R_US R45
 U 1 1 60CF1671
 P 2850 3850
-F 0 "R42" V 3055 3850 50  0000 C CNN
+F 0 "R45" V 3055 3850 50  0000 C CNN
 F 1 "2.2k" V 2964 3850 50  0000 C CNN
 F 2 "Resistor_SMD:R_1210_3225Metric" V 2890 3840 50  0001 C CNN
 F 3 "~" H 2850 3850 50  0001 C CNN
@@ -198,10 +198,10 @@ Wire Wire Line
 Text GLabel 7850 3550 3    50   Input ~ 0
 GND
 $Comp
-L Device:R_US R48
+L Device:R_US R51
 U 1 1 60E9D02C
 P 8350 3300
-F 0 "R48" V 8145 3300 50  0000 C CNN
+F 0 "R51" V 8145 3300 50  0000 C CNN
 F 1 "20k" V 8236 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8390 3290 50  0001 C CNN
 F 3 "~" H 8350 3300 50  0001 C CNN
@@ -250,10 +250,10 @@ Wire Wire Line
 Text GLabel 7850 4850 3    50   Input ~ 0
 GND
 $Comp
-L Device:R_US R49
+L Device:R_US R52
 U 1 1 60E9D04D
 P 8350 4600
-F 0 "R49" V 8145 4600 50  0000 C CNN
+F 0 "R52" V 8145 4600 50  0000 C CNN
 F 1 "20k" V 8236 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8390 4590 50  0001 C CNN
 F 3 "~" H 8350 4600 50  0001 C CNN
@@ -303,10 +303,10 @@ F 3 "~" H 6700 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R47
+L Device:R_US R50
 U 1 1 60E9D069
 P 6450 5150
-F 0 "R47" V 6655 5150 50  0000 C CNN
+F 0 "R50" V 6655 5150 50  0000 C CNN
 F 1 "2.2k" V 6564 5150 50  0000 C CNN
 F 2 "Resistor_SMD:R_1210_3225Metric" V 6490 5140 50  0001 C CNN
 F 3 "~" H 6450 5150 50  0001 C CNN
@@ -338,10 +338,10 @@ F 3 "~" H 6700 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R46
+L Device:R_US R49
 U 1 1 60E9D08A
 P 6450 3850
-F 0 "R46" V 6655 3850 50  0000 C CNN
+F 0 "R49" V 6655 3850 50  0000 C CNN
 F 1 "2.2k" V 6564 3850 50  0000 C CNN
 F 2 "Resistor_SMD:R_1210_3225Metric" V 6490 3840 50  0001 C CNN
 F 3 "~" H 6450 3850 50  0001 C CNN
@@ -361,50 +361,6 @@ Wire Wire Line
 	6300 3850 6200 3850
 Wire Wire Line
 	6700 3250 6700 2950
-$Comp
-L Isolator:PC847 U6
-U 1 1 60F73719
-P 3900 3400
-F 0 "U6" H 3900 3725 50  0000 C CNN
-F 1 "PC847" H 3900 3634 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3700 3200 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3900 3400 50  0001 L CNN
-	1    3900 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Isolator:PC847 U6
-U 2 1 60F74144
-P 3900 4700
-F 0 "U6" H 3900 5025 50  0000 C CNN
-F 1 "PC847" H 3900 4934 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3700 4500 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3900 4700 50  0001 L CNN
-	2    3900 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Isolator:PC847 U6
-U 3 1 60F74CE7
-P 7500 3400
-F 0 "U6" H 7500 3725 50  0000 C CNN
-F 1 "PC847" H 7500 3634 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 7300 3200 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 7500 3400 50  0001 L CNN
-	3    7500 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Isolator:PC847 U6
-U 4 1 60F75B7A
-P 7500 4700
-F 0 "U6" H 7500 5025 50  0000 C CNN
-F 1 "PC847" H 7500 4934 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 7300 4500 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 7500 4700 50  0001 L CNN
-	4    7500 4700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3100 2950 3600 2950
 Connection ~ 3100 2950
@@ -417,4 +373,48 @@ Connection ~ 6700 2950
 Wire Wire Line
 	6700 4250 7200 4250
 Connection ~ 6700 4250
+$Comp
+L Isolator:LTV-247 U8
+U 1 1 61E93D68
+P 3900 3400
+F 0 "U8" H 3900 3725 50  0000 C CNN
+F 1 "ELQ3H7" H 3900 3634 50  0000 C CNN
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 3700 3200 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF" H 3900 3400 50  0001 L CNN
+	1    3900 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-247 U8
+U 2 1 61E94722
+P 3900 4700
+F 0 "U8" H 3900 5025 50  0000 C CNN
+F 1 "ELQ3H7" H 3900 4934 50  0000 C CNN
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 3700 4500 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF" H 3900 4700 50  0001 L CNN
+	2    3900 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-247 U8
+U 3 1 61E9502C
+P 7500 3400
+F 0 "U8" H 7500 3725 50  0000 C CNN
+F 1 "ELQ3H7" H 7500 3634 50  0000 C CNN
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 7300 3200 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF" H 7500 3400 50  0001 L CNN
+	3    7500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-247 U8
+U 4 1 61E95644
+P 7500 4700
+F 0 "U8" H 7500 5025 50  0000 C CNN
+F 1 "ELQ3H7" H 7500 4934 50  0000 C CNN
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 7300 4500 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF" H 7500 4700 50  0001 L CNN
+	4    7500 4700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
