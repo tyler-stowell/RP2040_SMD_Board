@@ -1,4 +1,4 @@
-update=7/23/2021 1:29:30 PM
+update=8/4/2021 10:29:37 AM
 version=1
 last_client=kicad
 [general]
@@ -39,6 +39,9 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.2
+TrackWidth2=0.2
+TrackWidth3=0.4
+TrackWidth4=0.8
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -248,7 +251,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=10V O
-Clearance=0.3
+Clearance=0.2
 TrackWidth=0.4
 ViaDiameter=0.8
 ViaDrill=0.4
@@ -281,8 +284,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=5V
-Clearance=0.4
-TrackWidth=0.5
+Clearance=0.2
+TrackWidth=0.4
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3

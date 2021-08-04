@@ -618,12 +618,12 @@ $EndComp
 $Comp
 L Amplifier_Operational:TLV9004xRUCR U10
 U 1 1 61E28A21
-P 4850 2200
-F 0 "U10" H 4850 2567 50  0000 C CNN
-F 1 "TLV9304IDR" H 4850 2476 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4850 2200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv9004.pdf" H 4900 2400 50  0001 C CNN
-	1    4850 2200
+P 9350 4000
+F 0 "U10" H 9350 4367 50  0000 C CNN
+F 1 "TLV9304IDR" H 9350 4276 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9350 4000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv9004.pdf" H 9400 4200 50  0001 C CNN
+	1    9350 4000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -640,23 +640,23 @@ $EndComp
 $Comp
 L Amplifier_Operational:TLV9004xRUCR U10
 U 3 1 61E31CB3
-P 9300 2300
-F 0 "U10" H 9300 2667 50  0000 C CNN
-F 1 "TLV9304IDR" H 9300 2576 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9300 2300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv9004.pdf" H 9350 2500 50  0001 C CNN
-	3    9300 2300
+P 4850 2200
+F 0 "U10" H 4850 2567 50  0000 C CNN
+F 1 "TLV9304IDR" H 4850 2476 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4850 2200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv9004.pdf" H 4900 2400 50  0001 C CNN
+	3    4850 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Amplifier_Operational:TLV9004xRUCR U10
 U 4 1 61E32B03
-P 9350 4000
-F 0 "U10" H 9350 4367 50  0000 C CNN
-F 1 "TLV9304IDR" H 9350 4276 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9350 4000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv9004.pdf" H 9400 4200 50  0001 C CNN
-	4    9350 4000
+P 9300 2300
+F 0 "U10" H 9300 2667 50  0000 C CNN
+F 1 "TLV9304IDR" H 9300 2576 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9300 2300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv9004.pdf" H 9350 2500 50  0001 C CNN
+	4    9300 2300
 	1    0    0    -1  
 $EndComp
 $Comp
