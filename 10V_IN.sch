@@ -286,23 +286,23 @@ $EndComp
 $Comp
 L Amplifier_Operational:TLV9004xRUCR U5
 U 1 1 61E50AE5
-P 5700 3700
-F 0 "U5" H 5700 4067 50  0000 C CNN
-F 1 "TLV9004xRUCR" H 5700 3976 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5700 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv9004.pdf" H 5750 3900 50  0001 C CNN
-	1    5700 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:TLV9004xRUCR U5
-U 2 1 61E51335
 P 5700 5150
 F 0 "U5" H 5700 5517 50  0000 C CNN
 F 1 "TLV9004xRUCR" H 5700 5426 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5700 5150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv9004.pdf" H 5750 5350 50  0001 C CNN
-	2    5700 5150
+	1    5700 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TLV9004xRUCR U5
+U 2 1 61E51335
+P 5700 3700
+F 0 "U5" H 5700 4067 50  0000 C CNN
+F 1 "TLV9004xRUCR" H 5700 3976 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5700 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv9004.pdf" H 5750 3900 50  0001 C CNN
+	2    5700 3700
 	1    0    0    -1  
 $EndComp
 $Comp

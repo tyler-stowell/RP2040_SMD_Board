@@ -147,8 +147,6 @@ Wire Wire Line
 Wire Wire Line
 	6500 2000 6500 2050
 Connection ~ 6500 2000
-Text Notes 7200 3700 2    50   ~ 0
-Since V over R18 = V over R20 by presence of U3C, I into U4A = I into U4C
 Wire Notes Line
 	7000 1700 8000 1700
 Wire Notes Line
@@ -327,8 +325,6 @@ Wire Wire Line
 Wire Wire Line
 	6500 4600 6500 4650
 Connection ~ 6500 4600
-Text Notes 7200 6300 2    50   ~ 0
-Since V over R19 = V over R21 by presence of U3D, I into U4B = I into U4D
 Wire Notes Line
 	7000 4300 8000 4300
 Wire Notes Line
@@ -398,35 +394,13 @@ $EndComp
 $Comp
 L Isolator:LTV-247 U6
 U 1 1 61E9F1CA
-P 4500 1900
-F 0 "U6" H 4500 2225 50  0000 C CNN
-F 1 "ELQ3H7" H 4500 2134 50  0000 C CNN
-F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 4300 1700 50  0001 L CIN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF" H 4500 1900 50  0001 L CNN
-	1    4500 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Isolator:LTV-247 U6
-U 2 1 61E9FC23
-P 4500 4500
-F 0 "U6" H 4500 4825 50  0000 C CNN
-F 1 "ELQ3H7" H 4500 4734 50  0000 C CNN
-F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 4300 4300 50  0001 L CIN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF" H 4500 4500 50  0001 L CNN
-	2    4500 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Isolator:LTV-247 U6
-U 3 1 61EA079F
 P 6100 1900
 F 0 "U6" H 6100 2225 50  0000 C CNN
 F 1 "ELQ3H7" H 6100 2134 50  0000 C CNN
 F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 5900 1700 50  0001 L CIN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF" H 6100 1900 50  0001 L CNN
-	3    6100 1900
-	1    0    0    -1  
+	1    6100 1900
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Isolator:LTV-247 U6
@@ -437,6 +411,32 @@ F 1 "ELQ3H7" H 6100 4734 50  0000 C CNN
 F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 5900 4300 50  0001 L CIN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF" H 6100 4500 50  0001 L CNN
 	4    6100 4500
+	-1   0    0    -1  
+$EndComp
+Text Notes 7200 6300 2    50   ~ 0
+Since V over R22 = V over R24 by presence of U5D, I into U6B = I into U6D
+Text Notes 7200 3700 2    50   ~ 0
+Since V over R21 = V over R23 by presence of U5C, I into U6A = I into U6C
+$Comp
+L Isolator:LTV-247 U6
+U 2 1 61E9FC23
+P 4500 1900
+F 0 "U6" H 4500 2225 50  0000 C CNN
+F 1 "ELQ3H7" H 4500 2134 50  0000 C CNN
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 4300 1700 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF" H 4500 1900 50  0001 L CNN
+	2    4500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-247 U6
+U 3 1 61EA079F
+P 4500 4500
+F 0 "U6" H 4500 4825 50  0000 C CNN
+F 1 "ELQ3H7" H 4500 4734 50  0000 C CNN
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 4300 4300 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF" H 4500 4500 50  0001 L CNN
+	3    4500 4500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
