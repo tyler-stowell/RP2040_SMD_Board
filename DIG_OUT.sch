@@ -29,8 +29,6 @@ Text GLabel 4300 5300 0    50   Input ~ 0
 GND
 Text GLabel 3050 5300 0    50   Input ~ 0
 GND
-Text GLabel 4850 4700 1    50   Input ~ 0
-24V
 Text HLabel 5450 5300 2    50   Input ~ 0
 OUT1
 Wire Wire Line
@@ -121,8 +119,6 @@ Wire Wire Line
 Wire Wire Line
 	5250 5300 5450 5300
 Connection ~ 5250 5300
-Text GLabel 4850 3150 1    50   Input ~ 0
-24V
 $Comp
 L Device:R_US R?
 U 1 1 60B54B1B
@@ -189,8 +185,6 @@ Text GLabel 7800 5300 0    50   Input ~ 0
 GND
 Text GLabel 6550 5300 0    50   Input ~ 0
 GND
-Text GLabel 8350 4700 1    50   Input ~ 0
-24V
 Text HLabel 8950 5300 2    50   Input ~ 0
 OUT3
 Wire Wire Line
@@ -281,8 +275,6 @@ Wire Wire Line
 Wire Wire Line
 	8750 5300 8950 5300
 Connection ~ 8750 5300
-Text GLabel 8350 3150 1    50   Input ~ 0
-24V
 $Comp
 L Device:R_US R?
 U 1 1 60F0DFF0
@@ -388,45 +380,97 @@ $EndComp
 $Comp
 L Isolator:LTV-247 U9
 U 1 1 61E80CC7
-P 4150 3300
-F 0 "U9" H 4150 3625 50  0000 C CNN
-F 1 "ELQ3H7" H 4150 3534 50  0000 C CNN
-F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 3950 3100 50  0001 L CIN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF" H 4150 3300 50  0001 L CNN
-	1    4150 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Isolator:LTV-247 U9
-U 2 1 61E8602A
-P 4150 4850
-F 0 "U9" H 4150 5175 50  0000 C CNN
-F 1 "ELQ3H7" H 4150 5084 50  0000 C CNN
-F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 3950 4650 50  0001 L CIN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF" H 4150 4850 50  0001 L CNN
-	2    4150 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Isolator:LTV-247 U9
-U 3 1 61E86ED5
-P 7650 3300
-F 0 "U9" H 7650 3625 50  0000 C CNN
-F 1 "ELQ3H7" H 7650 3534 50  0000 C CNN
-F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 7450 3100 50  0001 L CIN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF" H 7650 3300 50  0001 L CNN
-	3    7650 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Isolator:LTV-247 U9
-U 4 1 61E87B1B
 P 7650 4850
 F 0 "U9" H 7650 5175 50  0000 C CNN
 F 1 "ELQ3H7" H 7650 5084 50  0000 C CNN
 F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 7450 4650 50  0001 L CIN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF" H 7650 4850 50  0001 L CNN
-	4    7650 4850
+	1    7650 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-247 U9
+U 2 1 61E8602A
+P 7650 3300
+F 0 "U9" H 7650 3625 50  0000 C CNN
+F 1 "ELQ3H7" H 7650 3534 50  0000 C CNN
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 7450 3100 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF" H 7650 3300 50  0001 L CNN
+	2    7650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-247 U9
+U 3 1 61E86ED5
+P 4150 4850
+F 0 "U9" H 4150 5175 50  0000 C CNN
+F 1 "ELQ3H7" H 4150 5084 50  0000 C CNN
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 3950 4650 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF" H 4150 4850 50  0001 L CNN
+	3    4150 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-247 U9
+U 4 1 61E87B1B
+P 4150 3300
+F 0 "U9" H 4150 3625 50  0000 C CNN
+F 1 "ELQ3H7" H 4150 3534 50  0000 C CNN
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 3950 3100 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF" H 4150 3300 50  0001 L CNN
+	4    4150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR?
+U 1 1 61E3EA42
+P 4850 3150
+AR Path="/61E3EA42" Ref="#PWR?"  Part="1" 
+AR Path="/60BA9C29/61E3EA42" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 4850 3000 50  0001 C CNN
+F 1 "+24V" V 4865 3278 50  0000 L CNN
+F 2 "" H 4850 3150 50  0001 C CNN
+F 3 "" H 4850 3150 50  0001 C CNN
+	1    4850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR?
+U 1 1 61E3F9B2
+P 4850 4700
+AR Path="/61E3F9B2" Ref="#PWR?"  Part="1" 
+AR Path="/60BA9C29/61E3F9B2" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 4850 4550 50  0001 C CNN
+F 1 "+24V" V 4865 4828 50  0000 L CNN
+F 2 "" H 4850 4700 50  0001 C CNN
+F 3 "" H 4850 4700 50  0001 C CNN
+	1    4850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR?
+U 1 1 61E40C60
+P 8350 3150
+AR Path="/61E40C60" Ref="#PWR?"  Part="1" 
+AR Path="/60BA9C29/61E40C60" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 8350 3000 50  0001 C CNN
+F 1 "+24V" V 8365 3278 50  0000 L CNN
+F 2 "" H 8350 3150 50  0001 C CNN
+F 3 "" H 8350 3150 50  0001 C CNN
+	1    8350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR?
+U 1 1 61E41ADB
+P 8350 4700
+AR Path="/61E41ADB" Ref="#PWR?"  Part="1" 
+AR Path="/60BA9C29/61E41ADB" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 8350 4550 50  0001 C CNN
+F 1 "+24V" V 8365 4828 50  0000 L CNN
+F 2 "" H 8350 4700 50  0001 C CNN
+F 3 "" H 8350 4700 50  0001 C CNN
+	1    8350 4700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -150,7 +150,7 @@ U 1 1 60E69DE2
 P 4550 1000
 F 0 "C9" H 4665 1046 50  0000 L CNN
 F 1 "0.1μ" H 4665 955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4588 850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4588 850 50  0001 C CNN
 F 3 "~" H 4550 1000 50  0001 C CNN
 	1    4550 1000
 	1    0    0    -1  
@@ -161,7 +161,7 @@ U 1 1 60E6A681
 P 4950 1000
 F 0 "C10" H 5065 1046 50  0000 L CNN
 F 1 "0.1μ" H 5065 955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4988 850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4988 850 50  0001 C CNN
 F 3 "~" H 4950 1000 50  0001 C CNN
 	1    4950 1000
 	1    0    0    -1  
@@ -172,7 +172,7 @@ U 1 1 60E6AF2E
 P 5350 1000
 F 0 "C11" H 5465 1046 50  0000 L CNN
 F 1 "0.1μ" H 5465 955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5388 850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5388 850 50  0001 C CNN
 F 3 "~" H 5350 1000 50  0001 C CNN
 	1    5350 1000
 	1    0    0    -1  
@@ -183,7 +183,7 @@ U 1 1 60E6B838
 P 5750 1000
 F 0 "C13" H 5865 1046 50  0000 L CNN
 F 1 "0.1μ" H 5865 955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 5788 850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5788 850 50  0001 C CNN
 F 3 "~" H 5750 1000 50  0001 C CNN
 	1    5750 1000
 	1    0    0    -1  
@@ -194,7 +194,7 @@ U 1 1 60E6C214
 P 6150 1000
 F 0 "C15" H 6265 1046 50  0000 L CNN
 F 1 "0.1μ" H 6265 955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 6188 850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6188 850 50  0001 C CNN
 F 3 "~" H 6150 1000 50  0001 C CNN
 	1    6150 1000
 	1    0    0    -1  
@@ -205,7 +205,7 @@ U 1 1 60E6CAE8
 P 6550 1000
 F 0 "C17" H 6665 1046 50  0000 L CNN
 F 1 "0.1μ" H 6665 955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 6588 850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6588 850 50  0001 C CNN
 F 3 "~" H 6550 1000 50  0001 C CNN
 	1    6550 1000
 	1    0    0    -1  
@@ -560,9 +560,9 @@ Wire Wire Line
 	10100 6050 10150 6050
 Connection ~ 10100 6050
 Text Label 11100 5600 2    50   ~ 0
-USB_DP
+USB_D+
 Text Label 11100 5700 2    50   ~ 0
-USB_DM
+USB_D-
 $Comp
 L Device:R_US R8
 U 1 1 60F69E53
@@ -594,9 +594,9 @@ Wire Wire Line
 Wire Wire Line
 	10750 5700 11100 5700
 Text Label 6750 2450 2    50   ~ 0
-USB_DM
+USB_D-
 Text Label 6750 2350 2    50   ~ 0
-USB_DP
+USB_D+
 Wire Wire Line
 	6400 2350 6750 2350
 Wire Wire Line
@@ -716,7 +716,7 @@ U 1 1 60FFBC99
 P 3750 1000
 F 0 "C6" H 3865 1046 50  0000 L CNN
 F 1 "0.1μ" H 3865 955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 3788 850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3788 850 50  0001 C CNN
 F 3 "~" H 3750 1000 50  0001 C CNN
 	1    3750 1000
 	1    0    0    -1  
@@ -727,7 +727,7 @@ U 1 1 60FFBC9F
 P 4150 1000
 F 0 "C7" H 4265 1046 50  0000 L CNN
 F 1 "0.1μ" H 4265 955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4188 850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4188 850 50  0001 C CNN
 F 3 "~" H 4150 1000 50  0001 C CNN
 	1    4150 1000
 	1    0    0    -1  
@@ -932,7 +932,7 @@ U 1 1 6112E25C
 P 7950 1000
 F 0 "C19" H 8065 1046 50  0000 L CNN
 F 1 "1μ" H 8065 955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7988 850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7988 850 50  0001 C CNN
 F 3 "~" H 7950 1000 50  0001 C CNN
 	1    7950 1000
 	1    0    0    -1  
@@ -971,7 +971,7 @@ U 1 1 6113606A
 P 8600 1000
 F 0 "C20" H 8715 1046 50  0000 L CNN
 F 1 "1μ" H 8715 955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8638 850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8638 850 50  0001 C CNN
 F 3 "~" H 8600 1000 50  0001 C CNN
 	1    8600 1000
 	1    0    0    -1  
@@ -1192,14 +1192,6 @@ Wire Wire Line
 	8400 6150 8400 5900
 Wire Wire Line
 	8400 5900 8500 5900
-NoConn ~ 6400 4350
-NoConn ~ 6400 4450
-NoConn ~ 6400 4550
-NoConn ~ 6400 4650
-NoConn ~ 6400 4750
-NoConn ~ 6400 4850
-NoConn ~ 6400 4950
-NoConn ~ 6400 5050
 NoConn ~ 6400 5150
 $Comp
 L power:PWR_FLAG #FLG04
@@ -1320,38 +1312,28 @@ Wire Wire Line
 	6400 3950 6650 3950
 Wire Wire Line
 	6400 4150 6650 4150
-Text Label 6650 2850 2    50   ~ 0
-GPIO1
-Text Label 6650 3050 2    50   ~ 0
-GPIO3
-Text Label 6650 3250 2    50   ~ 0
-GPIO5
-Text Label 6650 3450 2    50   ~ 0
-GPIO7
-Text Label 6650 3650 2    50   ~ 0
-GPIO9
-Text Label 6700 3850 2    50   ~ 0
-GPIO11
-Text Label 6700 4050 2    50   ~ 0
-GPIO13
-Text Label 6700 4250 2    50   ~ 0
-GPIO15
+Text Label 6700 5050 2    50   ~ 0
+GPIO23
+Text Label 6700 4350 2    50   ~ 0
+GPIO16
+Text Label 6700 4450 2    50   ~ 0
+GPIO17
+Text Label 6700 4550 2    50   ~ 0
+GPIO18
+Text Label 6700 4650 2    50   ~ 0
+GPIO19
+Text Label 6700 4750 2    50   ~ 0
+GPIO20
+Text Label 6700 4850 2    50   ~ 0
+GPIO21
+Text Label 6700 4950 2    50   ~ 0
+GPIO22
 Wire Wire Line
-	6400 2850 6650 2850
+	6400 4750 6700 4750
 Wire Wire Line
-	6400 3050 6650 3050
+	6400 4850 6700 4850
 Wire Wire Line
-	6400 3250 6650 3250
-Wire Wire Line
-	6400 3450 6650 3450
-Wire Wire Line
-	6400 3850 6700 3850
-Wire Wire Line
-	6400 4050 6700 4050
-Wire Wire Line
-	6400 4250 6700 4250
-Wire Wire Line
-	6400 3650 6650 3650
+	6400 4950 6700 4950
 Text Label 7000 1700 0    50   ~ 0
 PWM0
 Text Label 7000 1850 0    50   ~ 0
@@ -1368,22 +1350,22 @@ Text Label 7000 2800 0    50   ~ 0
 PWM6
 Text Label 7000 2950 0    50   ~ 0
 PWM7
-Text Label 7000 3350 0    50   ~ 0
-GPIO1
-Text Label 7000 3600 0    50   ~ 0
-GPIO3
-Text Label 7000 3850 0    50   ~ 0
-GPIO5
-Text Label 7000 4100 0    50   ~ 0
-GPIO7
-Text Label 7000 4500 0    50   ~ 0
-GPIO9
-Text Label 6950 4650 0    50   ~ 0
-GPIO11
-Text Label 6950 4800 0    50   ~ 0
-GPIO13
 Text Label 6950 4950 0    50   ~ 0
-GPIO15
+GPIO23
+Text Label 6950 3350 0    50   ~ 0
+GPIO16
+Text Label 6950 3600 0    50   ~ 0
+GPIO17
+Text Label 6950 3850 0    50   ~ 0
+GPIO18
+Text Label 6950 4100 0    50   ~ 0
+GPIO19
+Text Label 6950 4500 0    50   ~ 0
+GPIO20
+Text Label 6950 4650 0    50   ~ 0
+GPIO21
+Text Label 6950 4800 0    50   ~ 0
+GPIO22
 Wire Wire Line
 	7000 1700 7250 1700
 Wire Wire Line
@@ -1401,21 +1383,11 @@ Wire Wire Line
 Wire Wire Line
 	7000 2950 7250 2950
 Wire Wire Line
-	7000 3350 7250 3350
-Wire Wire Line
-	7000 3600 7250 3600
-Wire Wire Line
-	7000 3850 7250 3850
-Wire Wire Line
-	7000 4100 7250 4100
-Wire Wire Line
-	7000 4500 7250 4500
+	6950 4500 7250 4500
 Wire Wire Line
 	6950 4650 7250 4650
 Wire Wire Line
 	6950 4800 7250 4800
-Wire Wire Line
-	6950 4950 7250 4950
 Text Label 6650 5450 2    50   ~ 0
 ADC0
 Text Label 6650 5550 2    50   ~ 0
@@ -1424,13 +1396,13 @@ Text Label 6650 5650 2    50   ~ 0
 ADC2
 Text Label 6650 5750 2    50   ~ 0
 ADC3
-Text Label 7000 5300 0    50   ~ 0
-ADC0
-Text Label 7000 5450 0    50   ~ 0
-ADC1
 Text Label 7000 5850 0    50   ~ 0
-ADC2
+ADC0
 Text Label 7000 6100 0    50   ~ 0
+ADC1
+Text Label 7000 5300 0    50   ~ 0
+ADC2
+Text Label 7000 5450 0    50   ~ 0
 ADC3
 Wire Wire Line
 	7000 5300 7250 5300
@@ -1784,57 +1756,6 @@ Wire Notes Line
 	500  2800 3350 2800
 Text Notes 1300 2750 0    50   ~ 0
 5V to 3.3V Linear Voltage Regulator
-Wire Wire Line
-	6400 5250 6700 5250
-Text Label 6700 5250 2    50   ~ 0
-GPIO25
-$Comp
-L Device:LED D1
-U 1 1 61F17205
-P 2150 3100
-F 0 "D1" H 2143 2845 50  0000 C CNN
-F 1 "LED" H 2143 2936 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 2150 3100 50  0001 C CNN
-F 3 "~" H 2150 3100 50  0001 C CNN
-	1    2150 3100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R81
-U 1 1 61F18BAC
-P 1650 3100
-F 0 "R81" V 1445 3100 50  0000 C CNN
-F 1 "470" V 1536 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 1690 3090 50  0001 C CNN
-F 3 "~" H 1650 3100 50  0001 C CNN
-	1    1650 3100
-	0    1    1    0   
-$EndComp
-Text Label 1100 3100 0    50   ~ 0
-GPIO25
-Wire Wire Line
-	1100 3100 1500 3100
-Wire Wire Line
-	1800 3100 2000 3100
-$Comp
-L power:GND #PWR05
-U 1 1 61F7823A
-P 2450 3100
-F 0 "#PWR05" H 2450 2850 50  0001 C CNN
-F 1 "GND" V 2455 2972 50  0000 R CNN
-F 2 "" H 2450 3100 50  0001 C CNN
-F 3 "" H 2450 3100 50  0001 C CNN
-	1    2450 3100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2300 3100 2450 3100
-Wire Notes Line
-	500  3350 3350 3350
-Wire Notes Line
-	500  500  500  3350
-Text Notes 1800 3300 0    50   ~ 0
-LED
 $Comp
 L Connector:TestPoint TP4
 U 1 1 6201CA69
@@ -1970,4 +1891,35 @@ Wire Wire Line
 Connection ~ 5000 6800
 Wire Wire Line
 	950  1900 1350 1900
+Wire Wire Line
+	7250 4950 6950 4950
+Wire Wire Line
+	7250 3350 6950 3350
+Wire Wire Line
+	7250 3600 6950 3600
+Wire Wire Line
+	7250 3850 6950 3850
+Wire Wire Line
+	7250 4100 6950 4100
+Wire Wire Line
+	6400 5050 6700 5050
+Wire Wire Line
+	6400 4350 6700 4350
+Wire Wire Line
+	6400 4450 6700 4450
+Wire Wire Line
+	6700 4550 6400 4550
+Wire Wire Line
+	6400 4650 6700 4650
+Wire Notes Line
+	500  2800 500  500 
+NoConn ~ 6400 5250
+NoConn ~ 6400 4250
+NoConn ~ 6400 4050
+NoConn ~ 6400 3850
+NoConn ~ 6400 3650
+NoConn ~ 6400 3450
+NoConn ~ 6400 3250
+NoConn ~ 6400 3050
+NoConn ~ 6400 2850
 $EndSCHEMATC

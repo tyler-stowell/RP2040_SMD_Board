@@ -86,15 +86,11 @@ Wire Wire Line
 Wire Wire Line
 	5050 3300 5050 3250
 Connection ~ 5050 3300
-Text GLabel 5300 1550 1    50   Input ~ 0
-3.3V
 Wire Wire Line
 	5300 1800 5800 1800
 Wire Wire Line
 	4800 1800 5300 1800
 Connection ~ 5300 1800
-Wire Wire Line
-	5300 1550 5300 1800
 Text GLabel 6450 2400 0    50   Input ~ 0
 GND
 Connection ~ 5550 3300
@@ -264,15 +260,11 @@ Wire Wire Line
 Wire Wire Line
 	5050 5900 5050 5850
 Connection ~ 5050 5900
-Text GLabel 5300 4150 1    50   Input ~ 0
-3.3V
 Wire Wire Line
 	5300 4400 5800 4400
 Wire Wire Line
 	4800 4400 5300 4400
 Connection ~ 5300 4400
-Wire Wire Line
-	5300 4150 5300 4400
 Text GLabel 6450 5000 0    50   Input ~ 0
 GND
 Connection ~ 5550 5900
@@ -439,4 +431,30 @@ F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20
 	3    4500 4500
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 625F4CC4
+P 5300 4100
+F 0 "#PWR?" H 5300 3950 50  0001 C CNN
+F 1 "+3.3V" H 5315 4273 50  0000 C CNN
+F 2 "" H 5300 4100 50  0001 C CNN
+F 3 "" H 5300 4100 50  0001 C CNN
+	1    5300 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4100 5300 4400
+$Comp
+L power:+3.3V #PWR?
+U 1 1 625F65DC
+P 5300 1500
+F 0 "#PWR?" H 5300 1350 50  0001 C CNN
+F 1 "+3.3V" H 5315 1673 50  0000 C CNN
+F 2 "" H 5300 1500 50  0001 C CNN
+F 3 "" H 5300 1500 50  0001 C CNN
+	1    5300 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1500 5300 1800
 $EndSCHEMATC
