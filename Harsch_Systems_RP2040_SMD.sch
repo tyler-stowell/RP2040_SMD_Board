@@ -1192,7 +1192,6 @@ Wire Wire Line
 	8400 6150 8400 5900
 Wire Wire Line
 	8400 5900 8500 5900
-NoConn ~ 6400 5150
 $Comp
 L power:PWR_FLAG #FLG04
 U 1 1 6136F17F
@@ -1898,9 +1897,6 @@ Wire Wire Line
 	6700 4550 6400 4550
 Wire Wire Line
 	6400 4650 6700 4650
-Wire Notes Line
-	500  2800 500  500 
-NoConn ~ 6400 5250
 NoConn ~ 6400 4250
 NoConn ~ 6400 4050
 NoConn ~ 6400 3850
@@ -1911,4 +1907,93 @@ NoConn ~ 6400 3050
 NoConn ~ 6400 2850
 Wire Wire Line
 	2100 6850 2450 6850
+$Comp
+L SparkFun_SchematicComponents:Qwiic_Connector J2
+U 1 1 627377F0
+P 1350 3550
+F 0 "J2" H 1407 3917 50  0000 C CNN
+F 1 "Qwiic_Connector" H 1407 3826 50  0000 C CNN
+F 2 "Connectors:1X04_1MM_RA" H 1330 3650 20  0001 C CNN
+F 3 "" H 1300 3500 60  0001 C CNN
+	1    1350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 6276CE49
+P 1600 3750
+F 0 "#PWR0107" H 1600 3500 50  0001 C CNN
+F 1 "GND" V 1605 3622 50  0000 R CNN
+F 2 "" H 1600 3750 50  0001 C CNN
+F 3 "" H 1600 3750 50  0001 C CNN
+	1    1600 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 3700 1600 3700
+Wire Wire Line
+	1600 3700 1600 3750
+Text Label 6600 5150 2    50   ~ 0
+SCL
+Text Label 6600 5250 2    50   ~ 0
+SDA
+Wire Wire Line
+	6400 5150 6600 5150
+Wire Wire Line
+	6400 5250 6600 5250
+Text Label 2000 3400 2    50   ~ 0
+SCL
+Text Label 2350 3500 2    50   ~ 0
+SDA
+$Comp
+L Device:R_US R81
+U 1 1 62840E0D
+P 1750 3250
+F 0 "R81" H 1818 3296 50  0000 L CNN
+F 1 "2.2k" H 1818 3205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1790 3240 50  0001 C CNN
+F 3 "~" H 1750 3250 50  0001 C CNN
+	1    1750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R83
+U 1 1 628417E3
+P 2100 3350
+F 0 "R83" H 2168 3396 50  0000 L CNN
+F 1 "2.2k" H 2168 3305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2140 3340 50  0001 C CNN
+F 3 "~" H 2100 3350 50  0001 C CNN
+	1    2100 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 3400 1750 3400
+Wire Wire Line
+	1750 3400 2000 3400
+Connection ~ 1750 3400
+Wire Wire Line
+	1550 3500 2100 3500
+Wire Wire Line
+	2100 3500 2350 3500
+Connection ~ 2100 3500
+Wire Wire Line
+	1750 3100 1750 3050
+Wire Wire Line
+	2100 3200 2100 3050
+Text Notes 2350 3750 0    50   ~ 0
+QWIIC Connector
+Wire Notes Line
+	3350 4050 500  4050
+Wire Notes Line
+	500  500  500  4050
+Wire Wire Line
+	1750 3050 2100 3050
+Wire Wire Line
+	1550 3600 2500 3600
+Wire Wire Line
+	2500 3600 2500 3050
+Wire Wire Line
+	2500 3050 2100 3050
+Connection ~ 2100 3050
 $EndSCHEMATC
