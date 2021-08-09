@@ -1459,8 +1459,6 @@ F 3 "~" H 2950 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 6850 2450 6850
-Wire Wire Line
 	2450 6850 2450 6800
 Wire Wire Line
 	2450 6800 2550 6800
@@ -1655,17 +1653,6 @@ F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2200 2000 50  0001 C CNN
 F 3 "https://www.torexsemi.com/file/xc6210/XC6210.pdf" H 2950 1000 50  0001 C CNN
 	1    2200 2000
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Schottky D2
-U 1 1 619C10BE
-P 2250 6850
-F 0 "D2" H 2250 6633 50  0000 C CNN
-F 1 "D_Schottky" H 2250 6724 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2250 6850 50  0001 C CNN
-F 3 "~" H 2250 6850 50  0001 C CNN
-	1    2250 6850
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	2100 7050 2450 7050
@@ -1922,4 +1909,6 @@ NoConn ~ 6400 3450
 NoConn ~ 6400 3250
 NoConn ~ 6400 3050
 NoConn ~ 6400 2850
+Wire Wire Line
+	2100 6850 2450 6850
 $EndSCHEMATC
